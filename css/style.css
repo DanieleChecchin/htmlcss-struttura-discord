@@ -6,9 +6,14 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: lightblue;
+}
+
 .nav-bar{
     height: 60px;
-    background-color: lightblue;
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
 
@@ -23,35 +28,65 @@
 
 }
 
-.container{
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 .logo{
-    height: 20px;
+    height: 30px;
     width: 25%;
     background-color: orange;
     border: 1px dashed black;
+    padding: 5px;
 }
 
 .link{
-    height: 20px;
+    height: 30px;
     width: 50%;
     background-color: orange;
     border: 1px dashed black;
+    text-align: center;
+    padding: 5px;
 }
 
 .login{
-    height: 20px;
+    height: 30px;
     width: 25%;
     background-color: orange;
     border: 1px dashed black;
+    text-align: right;
+    padding: 5px;
 }
 
-.ciao{
+.contenuto{
     height: 300px;
     width: 700px;
+    background-color: purple;
+    border: 1px dashed black;
+}
+
+.main-section{
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section{
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+    border: 1px dashed black;
+}
+
+.text-section{
+    height: 300px;
+    width: 300px;
     background-color: pink;
     border: 1px dashed black;
+}
+
+.central-section{
+    height: 400px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
