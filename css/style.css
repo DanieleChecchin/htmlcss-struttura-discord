@@ -26,16 +26,21 @@
     height: 20px;
     width: 25%;
     background-color: orange;
+    border: 1px dashed black;
+
 }
 
 .link{
     height: 20px;
     width: 50%;
     background-color: orange;
+    border: 1px dashed black;
 }
 
 .login{
     height: 20px;
     width: 25%;
     background-color: orange;
+    border: 1px dashed black;
+
 }
