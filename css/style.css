@@ -9,6 +9,7 @@
 .nav-bar{
     height: 60px;
     background-color: lightblue;
+    display: flex;
 }
 
 .spotlight{
@@ -21,19 +22,20 @@
     margin: 0 auto;
 }
 
-.barra{
-    background-color: orange;
-    border: 1px dashed black;
-}
-
 .logo{
+    height: 20px;
     width: 25%;
+    background-color: orange;
 }
 
 .link{
+    height: 20px;
     width: 50%;
+    background-color: orange;
 }
 
 .login{
+    height: 20px;
     width: 25%;
+    background-color: orange;
 }
