@@ -1,0 +1,39 @@
+/* CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    height: 60px;
+    background-color: lightblue;
+}
+
+.spotlight{
+    height: 400px;
+    background-color: blue;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.barra{
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+.logo{
+    width: 25%;
+}
+
+.link{
+    width: 50%;
+}
+
+.login{
+    width: 25%;
+}
