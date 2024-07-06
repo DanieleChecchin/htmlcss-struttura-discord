@@ -6,13 +6,15 @@
     box-sizing: border-box;
 }
 
+/* Header */
+
 header{
     background-color: lightblue;
 }
 
 .nav-bar{
     height: 60px;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -61,6 +63,8 @@ header{
     border: 1px dashed black;
 }
 
+/* Main */
+
 .main-section{
  
     height: 400px;
@@ -108,13 +112,15 @@ header{
     border: 1px dashed black;
 }
 
+/* Footer */ 
+
 footer{
     background-color: black;
 }
 
 .finale{
     height: 400px;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     display: flex;
     align-items: center
@@ -122,13 +128,45 @@ footer{
 
 .contatti{
     height: 300px;
-    width: 350px;
+    width: 300px;
     background-color: pink;
     border: 1px dashed black;
 }
 
 .info{
     height: 300px;
-    width: 550px;
+    width: 500px;
     background-color: aqua;
+    display: flex;
 }
+
+.riquadro{
+    height: 300px;
+    width: 25%;
+    border: 1px dashed white;
+}
+
+.bottom-bar{
+    height: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.barra{
+    height: 30px;
+    width: 800px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.bottom-logo{
+    border: 1px dashed black;
+    height: 15px;
+    background-color: pink;
+}
+
