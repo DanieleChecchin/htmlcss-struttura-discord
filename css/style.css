@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+.width {
+    width: 800px;
+}
 /* Header */
 
 header{
@@ -14,7 +17,6 @@ header{
 
 .nav-bar{
     height: 60px;
-    max-width: 800px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -30,7 +32,7 @@ header{
 
 }
 
-.logo{
+.nav-logo{
     height: 30px;
     width: 25%;
     background-color: orange;
@@ -38,7 +40,7 @@ header{
     padding: 5px;
 }
 
-.link{
+.nav-link{
     height: 30px;
     width: 50%;
     background-color: orange;
@@ -47,7 +49,7 @@ header{
     padding: 5px;
 }
 
-.login{
+.nav-login{
     height: 30px;
     width: 25%;
     background-color: orange;
@@ -56,8 +58,8 @@ header{
     padding: 5px;
 }
 
-.contenuto{
-    height: 300px;
+.spotmain{
+    min-height: 300px;
     width: 700px;
     background-color: purple;
     border: 1px dashed black;
@@ -67,7 +69,7 @@ header{
 
 .main-section{
  
-    height: 400px;
+    min-height: 400px;
     background-color: yellow;
     display: flex;
     justify-content: center;
@@ -90,7 +92,7 @@ header{
 
 .central-section{
  
-    height: 400px;
+    min-height: 400px;
     background-color: lightslategray;
     display: flex;
     justify-content: center;
@@ -106,8 +108,7 @@ header{
 }
 
 .big-contenuto{
-    height: 600px;
-    width: 800px;
+    min-height: 600px;
     background-color: purple;
     border: 1px dashed black;
 }
@@ -119,8 +120,7 @@ footer{
 }
 
 .finale{
-    height: 400px;
-    max-width: 800px;
+    min-height: 400px;
     margin: 0 auto;
     display: flex;
     align-items: center
@@ -140,7 +140,7 @@ footer{
     display: flex;
 }
 
-.riquadro{
+.colonna{
     height: 300px;
     width: 25%;
     border: 1px dashed white;
@@ -148,7 +148,6 @@ footer{
 
 .bottom-bar{
     height: 60px;
-    max-width: 800px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -156,7 +155,6 @@ footer{
 
 .barra{
     height: 30px;
-    width: 800px;
     background-color: aqua;
     display: flex;
     justify-content: space-between;
@@ -165,7 +163,7 @@ footer{
 }
 
 .bottom-logo{
-    border: 1px dashed black;
+    border: 1px dashed rgb(43, 41, 41);
     height: 15px;
     background-color: pink;
 }
